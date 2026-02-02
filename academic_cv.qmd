@@ -1,0 +1,143 @@
+---
+author:
+  - name: Scott Claessens
+    affiliations:
+      - name: University of Bristol
+        department: School of Anthropology and Archaeology
+date: today
+filters: bold-name.lua
+format:
+  cv-typst:
+    keep-typ: false
+csl: "apa.csl"
+bibliography:
+  bookchapters: "book_chapters.bib"
+  articles: "journal_articles.bib"
+  preprints: "preprints.bib"
+  theses: "theses.bib"
+  popular: "popular.bib"
+  presentations: "presentations.bib"
+  lectures: "lectures.bib"
+nocite: '@*'
+---
+
+```{=typst}
+#align(center)[
+Email: #link("mailto:scott.claessens@gmail.com")[#text("scott.claessens@gmail.com")]  \
+Website: #link("https://scottclaessens.github.io/")[https://scottclaessens.github.io/] \
+ORCID: #link("https://orcid.org/0000-0002-3562-6981")[https://orcid.org/0000-0002-3562-6981]
+]
+```
+## Employment
+
+{{< cv appointments >}}
+
+## Education
+
+{{< cv education >}}
+
+## Awards and Honours
+
+{{< cv honors >}}
+
+## Funding
+
+{{< cv honors funding.yaml >}}
+
+## Research Interests
+
+The evolution of cooperation \| Behavioural economics \| Cultural evolution \| Open science \| Evolution and human behaviour \| Cross-cultural psychology \| Political and moral psychology
+
+## Research Skills
+
+-   Programming (R, Python, Javascript, SPSS)
+-   Survey creation with *Qualtrics*
+-   Statistical modelling with *brms*, *lavaan*, and *Stan*
+-   Reproducible analytic pipelines with *targets*
+-   Behavioural economic games with *oTree*
+-   Open science (e.g. preregistration)
+-   Project version control with *Git* and *GitHub*
+
+## Code Samples
+
+<https://github.com/ScottClaessens/crossNationalCorrelations>\
+<https://github.com/ScottClaessens/phyloParrot>\
+<https://github.com/ScottClaessens/covidMaskWearing>\
+<https://github.com/ScottClaessens/phyloAuthority>\
+<https://github.com/ScottClaessens/religionWellbeing>
+
+## Journal Articles
+
+::: {#refs-articles}
+:::
+
+## Book Chapters
+
+::: {#refs-bookchapters}
+:::
+
+## Preprints
+
+::: {#refs-preprints}
+:::
+
+## Theses
+
+::: {#refs-theses}
+:::
+
+## Popular Articles
+
+::: {#refs-popular}
+:::
+
+## Conference Presentations
+
+::: {#refs-presentations}
+:::
+
+## Invited Lectures and Workshops
+
+::: {#refs-lectures}
+:::
+
+## Open-Source Software
+
+[coevolve](https://scottclaessens.github.io/coevolve/) R package for Bayesian generalized dynamic phylogenetic models using Stan
+
+## Academic Service
+
+**Departmental:**
+
+-   Co-organised [Evolution Research \@ Auckland](https://aucklandevolution.wordpress.com/) seminar series, University of Auckland
+
+**Reviewing for journals:**
+
+-   Nature Communications
+-   Nature Computational Science
+-   Evolution and Human Behavior
+-   Evolutionary Human Sciences
+-   Political Behavior
+-   PLoS ONE
+
+**Reviewing for funders:**
+
+-   Czech Science Foundation
+
+## Media Coverage
+
+**Podcast appearances:**
+
+-   2023 – The Dissenter: [Episode #791](https://www.youtube.com/watch?v=OQS6zoqpWrQ)
+
+**Radio interviews:**
+
+-   2021 – bFM: [The Monday Wire](https://95bfm.com/bcast/hidden-signs-of-female-ovulation-w-scott-claessens-february-02-2020), 2nd February (with Zoë Larsen Cumming)
+-   2021 – Radio New Zealand: [Afternoons](https://www.rnz.co.nz/national/programmes/afternoons/audio/2018781177/new-study-on-how-female-ovulation-evolved), 27th January (with Jesse Mulligan)
+-   2020 – bFM: [Ready Steady Learn](https://95bfm.com/bcast/ready-steady-learn-w-scott-claessens-february-25-2020), 25th February (with Rachel Ashby)
+
+**Media articles:**
+
+-   2021 – Daily Mail: [Why ovulation is 'invisible' in humans: Prehistoric women evolved to hide their fertility status from other females 'to avoid conflict over mates'](https://www.dailymail.co.uk/sciencetech/article-9184769/Competition-human-females-likely-contributed-concealed-ovulation.html)
+-   2020 – Stuff: [Dogs' contagious yawning may not be a sign of empathy – study](https://www.stuff.co.nz/science/119436447/dogs-contagious-yawning-may-not-be-a-sign-of-empathy--study)
+-   2020 – Insider: [A new study says human yawns are contagious to dogs but that may not mean what we think it means](https://www.businessinsider.com/dogs-catch-yawns-from-humans-but-that-doesnt-indicate-empathy-2020-2)

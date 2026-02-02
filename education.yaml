@@ -1,0 +1,16 @@
+education:
+  University of Auckland, NZ:
+    - degree: PhD in Psychology
+      year:
+        start: 2018
+        end: 2022
+  Newcastle University, UK:
+    - degree: MRes Evolution and Human Behaviour (Distinction)
+      year:
+        start: 2016
+        end: 2017
+  University of Bristol, UK:
+    - degree: BSc in Psychology (First class honours)
+      year:
+        start: 2012
+        end: 2015

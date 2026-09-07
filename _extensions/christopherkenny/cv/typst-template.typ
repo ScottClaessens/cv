@@ -20,7 +20,7 @@
   paper: "us-letter",
   lang: "en",
   region: "US",
-  font: (),
+  font: none,
   fontsize: 12pt,
   sectionnumbering: none,
   toc: false,
@@ -28,7 +28,7 @@
   toc_depth: none,
   toc_indent: 1.5em,
   linestretch: 1,
-  linkcolor: "#6082B6",
+  linkcolor: "#800000",
   doc,
 ) = {
 
@@ -170,7 +170,7 @@
   let n_uni = info.len()
 
   for i in range(n_uni) {
-    text(weight: "bold", size: 14pt, info.keys().at(i))
+    text(weight: "bold", size: 16pt, info.keys().at(i))
     v(-0.5em)
     for uni in info.values().at(i) {
       grid(
@@ -190,7 +190,7 @@
   let n_jobs = info.len()
 
   for i in range(n_jobs) {
-    text(weight: "bold", size: 14pt, info.keys().at(i))
+    text(weight: "bold", size: 16pt, info.keys().at(i))
     v(-0.5em)
     for job in info.values().at(i) {
 
@@ -210,7 +210,7 @@
   let n_jobs = info.len()
 
   for i in range(n_jobs) {
-    text(weight: "bold", size: 14pt, info.keys().at(i))
+    text(weight: "bold", size: 16pt, info.keys().at(i))
     v(-0.5em)
     for job in info.values().at(i) {
 
@@ -229,9 +229,9 @@
 
   for honor in honors {
     grid(
-      columns: (1.5fr, 11fr),
+      columns: (1fr, 11fr),
       align: (left, left),
-      gutter: 0.5em,
+      gutter: 0.75em,
       // Show year if it exists
       if "year" in honor { str(honor.year) } else { "" },
       block[
@@ -246,7 +246,7 @@
         }
       ]
     )
-    v(0.1em)
+    v(0.5em)
   }
 }
 

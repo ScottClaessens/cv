@@ -50,7 +50,7 @@ The evolution of cooperation \| Behavioural economics \| Cultural evolution \| O
 
 ## Research Skills
 
--   Programming (R, Python, Javascript, SPSS)
+-   Programming (R, Python, Javascript)
 -   Survey creation with *Qualtrics*
 -   Statistical modelling with *brms*, *lavaan*, and *Stan*
 -   Reproducible analytic pipelines with *targets*
@@ -115,6 +115,7 @@ The evolution of cooperation \| Behavioural economics \| Cultural evolution \| O
 
 -   Nature Communications
 -   Nature Computational Science
+-   BMC Psychology
 -   Evolution and Human Behavior
 -   Evolutionary Human Sciences
 -   Political Behavior

@@ -16,9 +16,9 @@ appointments:
   - position: Teaching Fellow, School of Psychology
     year:
       end: 2023
-  - position: Academic Mentor, School of Psychology
-    year:
-      end: 2022
+  #- position: Academic Mentor, School of Psychology
+  #  year:
+  #    end: 2022
   - position: Graduate Teaching Assistant, School of Psychology
     year:
       start: 2019

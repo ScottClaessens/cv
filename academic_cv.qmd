@@ -23,11 +23,21 @@ nocite: '@*'
 
 ```{=typst}
 #align(center)[
-Email: #link("mailto:scott.claessens@gmail.com")[#text("scott.claessens@gmail.com")]  \
-Website: #link("https://scottclaessens.github.io/")[https://scottclaessens.github.io/] \
-ORCID: #link("https://orcid.org/0000-0002-3562-6981")[https://orcid.org/0000-0002-3562-6981]
+  #box(height: 10pt, baseline: 1pt, image("assets/mail.png", width: 2.5%))
+  #link("mailto:scott.claessens@gmail.com")[#text("scott.claessens@gmail.com")] |
+  #box(height: 11pt, baseline: 1pt, image("assets/phone.png", width: 2.5%))
+  +44 7934 887479 \
+  #box(height: 13pt, baseline: 2pt, image("assets/github.png", width: 2.5%)) 
+  #link("https://github.com/ScottClaessens")[GitHub] |
+  #box(height: 13pt, baseline: 2pt, image("assets/web.png", width: 2.5%)) 
+  #link("https://scottclaessens.github.io/")[Personal Website] |
+  #box(height: 13pt, baseline: 2pt, image("assets/orcid.png", width: 2.5%)) 
+  #link("https://orcid.org/0000-0002-3562-6981")[ORCiD] |
+  #box(height: 13pt, baseline: 2pt, image("assets/scholar.png", width: 2.5%)) 
+  #link("https://scholar.google.com/citations?user=NNk6pwEAAAAJ")[Google Scholar]
 ]
 ```
+
 ## Employment
 
 {{< cv appointments >}}
